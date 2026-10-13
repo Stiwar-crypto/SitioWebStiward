@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soporte Técnico Profesional | Optimización de PCs</title>
+    <title>Restaurante Sabor Casero | Menú y Pedidos</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f7f6;
+            background-color: #fffaf0;
             color: #333;
         }
         header {
-            background-color: #1e293b;
+            background-color: #b91c1c;
             color: white;
             text-align: center;
-            padding: 50px 20px;
+            padding: 40px 20px;
         }
         header h1 {
             margin: 0 0 10px 0;
-            font-size: 28px;
+            font-size: 30px;
         }
         header p {
             margin: 0;
-            color: #94a3b8;
+            color: #fecaca;
             font-size: 16px;
         }
         .container {
@@ -40,14 +40,30 @@
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
         }
         .card h2 {
-            color: #0f172a;
+            color: #991b1b;
             margin-top: 0;
+            border-bottom: 2px solid #fee2e2;
+            padding-bottom: 8px;
         }
-        ul {
-            padding-left: 20px;
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            border-bottom: 1px dashed #e5e7eb;
+            padding-bottom: 10px;
         }
-        li {
-            margin-bottom: 8px;
+        .menu-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .item-name {
+            font-weight: bold;
+            color: #1f2937;
+        }
+        .item-price {
+            color: #b91c1c;
+            font-weight: bold;
         }
         .btn-whatsapp {
             display: block;
@@ -68,7 +84,7 @@
         footer {
             text-align: center;
             padding: 20px;
-            color: #64748b;
+            color: #6b7280;
             font-size: 14px;
         }
     </style>
@@ -76,31 +92,39 @@
 <body>
 
     <header>
-        <h1>Soporte Técnico y Mantenimiento de PCs</h1>
-        <p>Soluciones rápidas y profesionales para tu computador a domicilio</p>
+        <h1>Restaurante Sabor Casero</h1>
+        <p>Disfruta de la mejor sazón tradicional directa a tu mesa</p>
     </header>
 
     <div class="container">
         <div class="card">
-            <h2>Nuestros Servicios</h2>
-            <ul>
-                <li>Mantenimiento preventivo y correctivo de hardware.</li>
-                <li>Formateo, instalación de Windows y programas esenciales.</li>
-                <li>Optimización de velocidad y limpieza de virus o archivos basura.</li>
-            </ul>
+            <h2>Platillos Destacados</h2>
+            <div class="menu-item">
+                <span class="item-name">Bandeja Paisa Tradicional</span>
+                <span class="item-price">$22.000</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">Sobrebarriga en Salsa Criolla</span>
+                <span class="item-price">$20.000</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">Pechuga Gratinada con Champiñones</span>
+                <span class="item-price">$18.000</span>
+            </div>
         </div>
 
         <div class="card">
-            <h2>¿Por qué elegirnos?</h2>
-            <p>Diagnóstico honesto, precios accesibles y garantía en cada servicio técnico para alargar la vida útil de tu equipo.</p>
+            <h2>Horarios y Servicio</h2>
+            <p><strong>Lunes a Domingo:</strong> 11:00 a.m. - 9:00 p.m.</p>
+            <p><strong>Servicio a domicilio:</strong> Cobertura en toda la zona.</p>
         </div>
 
-        <!-- Reemplaza el número de teléfono en el enlace de WhatsApp -->
-        <a href="https://wa.me/573000000000?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20mantenimiento%20de%20computadores" class="btn-whatsapp" target="_blank">📲 Cotizar por WhatsApp</a>
+        <!-- Reemplaza 573000000000 por el número de WhatsApp del restaurante -->
+        <a href="https://wa.me/573000000000?text=Hola,%20quiero%20hacer%20un%20pedido%20a%20domicilio" class="btn-whatsapp" target="_blank">📲 Hacer Pedido por WhatsApp</a>
     </div>
 
     <footer>
-        <p>&copy; 2026 Soporte Técnico Profesional. Todos los derechos reservados.</p>
+        <p>&copy; 2026 Restaurante Sabor Casero. Todos los derechos reservados.</p>
     </footer>
 
 </body>
