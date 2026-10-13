@@ -3,25 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primer Sitio Web</title>
+    <title>Soporte Técnico Profesional | Optimización de PCs</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        header {
+            background-color: #1e293b;
+            color: white;
             text-align: center;
-            background-color: #f4f4f9;
-            padding: 50px;
+            padding: 50px 20px;
         }
-        h1 {
-            color: #2c3e50;
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 28px;
         }
-        p {
-            color: #555;
+        header p {
+            margin: 0;
+            color: #94a3b8;
+            font-size: 16px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .card h2 {
+            color: #0f172a;
+            margin-top: 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .btn-whatsapp {
+            display: block;
+            background-color: #25d366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
             font-size: 18px;
+            margin-top: 30px;
+            box-shadow: 0 4px 6px rgba(37, 211, 102, 0.3);
+        }
+        .btn-whatsapp:hover {
+            background-color: #22bf5b;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #64748b;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
-    <h1>¡Hola! Bienvenido a mi página web</h1>
-    <p>Esta es mi primera página subida gratis a internet.</p>
+
+    <header>
+        <h1>Soporte Técnico y Mantenimiento de PCs</h1>
+        <p>Soluciones rápidas y profesionales para tu computador a domicilio</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Nuestros Servicios</h2>
+            <ul>
+                <li>Mantenimiento preventivo y correctivo de hardware.</li>
+                <li>Formateo, instalación de Windows y programas esenciales.</li>
+                <li>Optimización de velocidad y limpieza de virus o archivos basura.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>¿Por qué elegirnos?</h2>
+            <p>Diagnóstico honesto, precios accesibles y garantía en cada servicio técnico para alargar la vida útil de tu equipo.</p>
+        </div>
+
+        <!-- Reemplaza el número de teléfono en el enlace de WhatsApp -->
+        <a href="https://wa.me/573000000000?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20mantenimiento%20de%20computadores" class="btn-whatsapp" target="_blank">📲 Cotizar por WhatsApp</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Soporte Técnico Profesional. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
